@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#aiBg)"/>
+  
+  <!-- Flow Grid Lines -->
+  <g opacity="0.2" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="6,6">
+    <path d="M120 175 L240 175 L300 120 L420 120 L480 175"/>
+    <path d="M240 175 L300 230 L420 230 L480 175"/>
+  </g>
+
+  <!-- Central Automation Node (n8n & LLMs) -->
+  <rect x="70" y="140" width="100" height="70" rx="14" fill="#1e293b" stroke="#06b6d4" stroke-width="2"/>
+  <text x="120" y="172" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" fill="#ffffff">n8n Engine</text>
+  <text x="120" y="192" text-anchor="middle" font-family="monospace" font-size="11" fill="#06b6d4">Webhook::In</text>
+
+  <!-- Node Claude & GPT-4 -->
+  <rect x="250" y="85" width="120" height="70" rx="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="310" y="117" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" fill="#ffffff">Claude 3.5</text>
+  <text x="310" y="137" text-anchor="middle" font-family="monospace" font-size="11" fill="#c084fc">Anthropic API</text>
+
+  <!-- Node Gemini & ChatGPT-4 -->
+  <rect x="250" y="195" width="120" height="70" rx="14" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+  <text x="310" y="227" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" fill="#ffffff">Gemini Pro</text>
+  <text x="310" y="247" text-anchor="middle" font-family="monospace" font-size="11" fill="#f472b6">GPT-4 Turbo</text>
+
+  <!-- Execution Output Node -->
+  <rect x="430" y="140" width="110" height="70" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+  <text x="485" y="172" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="14" fill="#ffffff">AI Response</text>
+  <text x="485" y="192" text-anchor="middle" font-family="monospace" font-size="11" fill="#34d399">HTTP 200 OK</text>
+
+  <!-- Animated Glowing Synapse Orbs -->
+  <circle cx="205" cy="148" r="6" fill="#06b6d4"/>
+  <circle cx="395" cy="148" r="6" fill="#8b5cf6"/>
+  <circle cx="205" cy="202" r="6" fill="#ec4899"/>
+  <circle cx="395" cy="202" r="6" fill="#10b981"/>
+
+  <text x="30" y="45" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#ffffff">NEXUS AI ORCHESTRATOR</text>
+  <text x="30" y="65" font-family="monospace" font-size="12" fill="#8b5cf6">Auto-Agents &amp; Multi-LLM Sync (Claude / Gemini / GPT-4)</text>
+</svg>

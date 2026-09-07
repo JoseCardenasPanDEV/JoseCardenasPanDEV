@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="awsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#141a29"/>
+      <stop offset="100%" stop-color="#0b101c"/>
+    </linearGradient>
+    <linearGradient id="awsOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9900"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#awsBg)"/>
+
+  <!-- Cloud Infrastructure Nodes -->
+  <g transform="translate(45, 95)">
+    <!-- Route 53 / CloudFront -->
+    <rect x="0" y="30" width="105" height="90" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="52" y="65" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#ffffff">CloudFront</text>
+    <text x="52" y="85" text-anchor="middle" font-family="monospace" font-size="11" fill="#38bdf8">Global CDN</text>
+
+    <!-- AWS Lambda Serverless -->
+    <rect x="135" y="0" width="115" height="150" rx="16" fill="#0f172a" stroke="url(#awsOrange)" stroke-width="2"/>
+    <text x="192" y="45" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="800" font-size="16" fill="#ff9900">AWS Lambda</text>
+    <text x="192" y="68" text-anchor="middle" font-family="monospace" font-size="11" fill="#94a3b8">Serverless Func</text>
+    <line x1="150" y1="85" x2="235" y2="85" stroke="rgba(255,255,255,0.1)"/>
+    <text x="192" y="110" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="12" fill="#ffffff">Auto-Scale</text>
+    <text x="192" y="130" text-anchor="middle" font-family="monospace" font-size="10" fill="#10b981">0 to 10k req/s</text>
+
+    <!-- EC2 & ECS Cluster -->
+    <rect x="275" y="30" width="110" height="90" rx="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="330" y="65" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#ffffff">Amazon EC2</text>
+    <text x="330" y="85" text-anchor="middle" font-family="monospace" font-size="11" fill="#c084fc">ECS Docker</text>
+
+    <!-- S3 Storage Bucket -->
+    <rect x="410" y="30" width="100" height="90" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="460" y="65" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="13" fill="#ffffff">Amazon S3</text>
+    <text x="460" y="85" text-anchor="middle" font-family="monospace" font-size="11" fill="#34d399">99.999999999%</text>
+  </g>
+
+  <rect x="45" y="275" width="510" height="38" rx="8" fill="#111827" stroke="rgba(255, 153, 0, 0.3)"/>
+  <text x="300" y="299" text-anchor="middle" font-family="monospace" font-size="12" fill="#ff9900">⚡ AWS Cloud Architecture: High-Availability, CI/CD &amp; Terraform Infrastructure</text>
+
+  <text x="30" y="45" font-family="'Outfit', sans-serif" font-weight="800" font-size="18" fill="#ffffff">CLOUDVANGUARD DEVOPS</text>
+  <text x="30" y="65" font-family="monospace" font-size="12" fill="#ff9900">Amazon Web Services (AWS) Resilient Cloud Infrastructure</text>
+</svg>
