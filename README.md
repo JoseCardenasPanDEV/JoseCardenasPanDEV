@@ -76,18 +76,6 @@ Cuento con sólida formación en **infraestructura de redes (Cisco CCNA)**, **se
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
 </p>
 
----
-
-## 🚀 Proyectos Destacados
-
-| Proyecto / Solución | Enfoque Técnico | Stack Principal | Enlace |
-| :--- | :--- | :--- | :---: |
-| **Pipeline Multi-Agente & Automatización con LLMs** | Orquestación de agentes para análisis contextual y ejecución automática de flujos de trabajo. | `Python` `LangChain` `Claude 3.5` `n8n` | [Ver Proyecto](https://github.com) |
-| **API Asíncrona Empresarial de Alta Disponibilidad** | Microservicio con autenticación JWT segura, rate limiting y persistencia relacional optimizada. | `FastAPI` `PostgreSQL` `Docker` | [Ver Proyecto](https://github.com) |
-| **Plataforma Web Reactiva y Modular** | Aplicación web con arquitectura por componentes, consumo de servicios REST y diseño responsivo. | `Angular` / `React` `Bootstrap 5` | [Ver Proyecto](https://github.com) |
-
----
-
 ## 📬 Contacto Profesional
 
 <div align="center">
