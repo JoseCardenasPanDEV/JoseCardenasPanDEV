@@ -1,6 +1,6 @@
 <!-- BANNER PRINCIPAL PANORÁMICO -->
 <div align="center">
-  <img src="./banner_github_panoramico.jpg" alt="José Cárdenas - Software Engineer & AI" width="100%" />
+  <img src="./banner" alt="José Cárdenas - Software Engineer & AI" width="100%" />
 </div>
 
 <!-- TEXTO DINÁMICO FORMAL -->
