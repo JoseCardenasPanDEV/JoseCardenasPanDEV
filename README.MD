@@ -14,3 +14,7 @@ Siento que hay muchísimo por aprender y sé perfectamente que cada día trae co
 
 - JavaScript
 - Python
+- Sql & NoSQl
+
+## Libreria Js
+- React
