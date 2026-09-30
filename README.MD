@@ -4,7 +4,7 @@
 
 # Estudiante de Ingeniería de Software
 
-Me encuentro cursando la carrera de Ingeniería de Software en la UPN. Me apasiona el avance de la tecnología y cómo esta puede ofrecer soluciones prácticas y herramientas útiles que faciliten el desarrollo y la vida cotidiana de las personas en diversos aspectos.
+Me encuentro cursando la carrera de Ingeniería de Software en la UPN. Me apasiona el avance de la tecnología y cómo esta puede ofrecer soluciones prácticas y herramientas útiles que faciliten el desarrollo a la vida cotidiana de las personas en diversos aspectos.
 
 Siento que hay muchísimo por aprender y sé perfectamente que cada día trae consigo el comienzo de algo nuevo por descubrir y construir.
 
