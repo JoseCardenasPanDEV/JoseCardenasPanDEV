@@ -3,19 +3,6 @@
   <img src="/banner.png" alt="José Cárdenas - Software Engineer & AI" width="100%" />
 </div>
 
-<!-- TEXTO DINÁMICO FORMAL -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=19&pause=1200&color=0EA5E9&center=true&vCenter=true&width=760&lines=Jos%C3%A9+C%C3%A1rdenas+%7C+Software+Engineer+%26+Tech+Lead;IA+%26+Automatizaci%C3%B3n+%7C+Orquestaci%C3%B3n+Multi-Modelo;Arquitecturas+Escalables%2C+APIs+As%C3%ADncronas+%26+Cloud;Ciberseguridad%2C+Redes+(CCNA)+%26+Ethical+Hacking" alt="Typing SVG" />
-</p>
-
-<!-- INDICADORES DE ESTADO -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Disponibilidad-Abierto_a_proyectos_y_consultoria-0284c7?style=flat-square" alt="Status" />
-  <img src="https://img.shields.io/badge/Enfoque-Seguridad_por_Diseño-0f172a?style=flat-square" alt="Security Focus" />
-</p>
-
----
-
 ## 💼 Perfil Profesional
 
 Desarrollador de Software especializado en el diseño de **arquitecturas escalables**, **servicios asíncronos de alta disponibilidad** y la **integración de modelos de Inteligencia Artificial** en flujos de automatización empresarial. 
