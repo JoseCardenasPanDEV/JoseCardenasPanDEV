@@ -14,7 +14,8 @@ Siento que hay muchísimo por aprender y sé perfectamente que cada día trae co
 
 - JavaScript
 - Python
-- Sql & NoSQl
+- Sql (PostgresSQl, MySql)
+- NoSQl (Mongo DB)
 
 ## Libreria Js
 - React
